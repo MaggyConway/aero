@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/aero/components/bitrix/menu/top_menu/script.js" => "1580400114407",); ?>

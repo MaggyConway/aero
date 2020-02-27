@@ -1,0 +1,1179 @@
+2020-01-09 10:17:34 -  - exec CUpdateClientPartner::SearchModulesEx
+2020-01-09 10:17:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-09 10:17:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&search_module_id=&search_module=&search_category=7%2C14&search_type=&search_order=DESC&search_order_by=SORT&search_page=1&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-09 10:17:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-09 10:17:35 -  - TIME SearchModulesEx(request) 1.229 sec
+2020-01-09 10:17:35 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-09 10:17:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-09 10:17:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-09 10:17:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-09 10:17:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-09 10:17:44 -  - TIME LoadModulesUpdates(request) 0.442 sec
+2020-01-09 10:17:44 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-09 10:17:44 - S - STEP
+2020-01-09 10:17:44 - LM4W01 - loadModule4Wizard-Step
+2020-01-09 10:17:45 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-09 10:17:45 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-09 10:17:45 -  - loadFile
+2020-01-09 10:17:46 - U - RETURN
+2020-01-09 10:17:46 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-09 10:17:46 -  - TIME UnGzipArchive 0.133 sec
+2020-01-09 10:17:47 -  - TIME UpdateStepModules 0.313 sec
+2020-01-09 10:17:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-09 10:17:47 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-09 10:17:47 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=nsandrey.emptyinstall&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-09 10:17:47 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-09 10:17:47 -  - TIME LoadModulesUpdates(request) 0.309 sec
+2020-01-09 10:17:47 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-09 10:17:47 - STEP - Finish - NOUPDATES
+2020-01-09 10:17:47 - LM4W03 - Finish - NOUPDATES
+2020-01-09 10:19:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-09 10:19:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-09 10:19:18 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-09 10:19:18 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-09 10:19:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-09 10:19:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-09 10:19:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-09 10:19:19 -  - TIME GetUpdatesList(request) 0.298 sec
+2020-01-09 10:19:19 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-09 10:19:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-09 10:19:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-09 10:19:19 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-10 10:50:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-10 10:50:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-10 10:50:17 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-10 10:50:17 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-10 10:50:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-10 10:50:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-10 10:50:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-10 10:50:18 -  - TIME GetUpdatesList(request) 1.094 sec
+2020-01-10 10:50:18 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-10 10:50:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-10 10:50:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-10 10:50:23 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-10 10:50:23 - CUPSD - [UPSD01] Пустой ответ от сервера обновлений. 
+2020-01-13 07:17:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-13 07:17:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-13 07:17:31 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-13 07:17:31 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-13 07:17:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-13 07:17:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-13 07:17:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-13 07:17:31 -  - TIME GetUpdatesList(request) 0.686 sec
+2020-01-13 07:17:31 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-13 07:17:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-13 07:17:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-13 07:17:32 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-14 07:17:49 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-14 07:17:49 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-14 07:17:50 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-14 07:17:50 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-14 07:17:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-14 07:17:50 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-14 07:17:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-14 07:17:50 -  - TIME GetUpdatesList(request) 0.321 sec
+2020-01-14 07:17:50 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-14 07:17:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-14 07:17:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-14 07:17:51 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-15 09:08:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-15 09:08:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-15 09:08:05 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-15 09:08:05 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-15 09:08:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-15 09:08:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-15 09:08:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-15 09:08:06 -  - TIME GetUpdatesList(request) 0.319 sec
+2020-01-15 09:08:06 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-15 09:08:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-15 09:08:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-15 09:08:06 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-17 10:03:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-17 10:03:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-17 10:03:56 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-17 10:03:56 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-17 10:03:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-17 10:03:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-17 10:03:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-17 10:03:56 -  - TIME GetUpdatesList(request) 0.396 sec
+2020-01-17 10:03:56 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-17 10:03:56 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-17 10:03:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-17 10:03:57 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-20 18:15:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-20 18:15:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-20 18:15:24 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-20 18:15:24 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-20 18:15:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-20 18:15:24 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-20 18:15:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-20 18:15:25 -  - TIME GetUpdatesList(request) 0.535 sec
+2020-01-20 18:15:25 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-20 18:15:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-20 18:15:25 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-20 18:15:26 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-22 09:19:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-22 09:19:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-22 09:19:10 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-22 09:19:10 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-22 09:19:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-22 09:19:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-22 09:19:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-22 09:19:11 -  - TIME GetUpdatesList(request) 0.705 sec
+2020-01-22 09:19:11 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-22 09:19:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-22 09:19:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-22 09:19:11 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-23 09:19:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-23 09:19:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-23 09:19:51 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-23 09:19:51 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-23 09:19:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-23 09:19:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-23 09:19:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-23 09:19:52 -  - TIME GetUpdatesList(request) 0.364 sec
+2020-01-23 09:19:52 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-23 09:19:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-23 09:19:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-23 09:19:52 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 09:22:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 09:22:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 09:22:21 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 09:22:21 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-24 09:22:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 09:22:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 09:22:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 09:22:21 -  - TIME GetUpdatesList(request) 0.399 sec
+2020-01-24 09:22:21 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 09:22:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 09:22:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 09:22:21 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:08 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-24 10:40:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cnsandrey.emptyinstall%2Cdev2fun.sectionswithelements&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:09 -  - TIME GetUpdatesList(request) 0.694 sec
+2020-01-24 10:40:09 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:14 -  - TIME LoadModulesUpdates(request) 0.452 sec
+2020-01-24 10:40:14 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:14 - S - STEP
+2020-01-24 10:40:14 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:15 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:15 -  - loadFile
+2020-01-24 10:40:16 - U - RETURN
+2020-01-24 10:40:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:17 -  - TIME UnGzipArchive 0.079 sec
+2020-01-24 10:40:17 -  - TIME UpdateStepModules 0.206 sec
+2020-01-24 10:40:17 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements
+2020-01-24 10:40:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.1.3%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:18 -  - TIME LoadModulesUpdates(request) 0.473 sec
+2020-01-24 10:40:18 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:18 - S - STEP
+2020-01-24 10:40:18 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:18 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:18 -  - loadFile
+2020-01-24 10:40:18 - U - RETURN
+2020-01-24 10:40:18 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:18 -  - TIME UnGzipArchive 0.012 sec
+2020-01-24 10:40:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851618/dev2fun.sectionswithelements/updater0.2.1.php'
+2020-01-24 10:40:19 -  - TIME UpdateStepModules 0.03 sec
+2020-01-24 10:40:19 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.1)<br>- добавлена возможность вывода структуры разделов - добавлена возможность не выводить пустые разделы (разделы без элементов) - добавлена возможность выводить картинку раздела - добавлена возможность ограничивать вывод разделов - улучшена пагинация - добавлена возможность указания ограничивающее кол-ва знаков, при выводе описания раздела - улучшен эрмитаж - исправлен баг с выводом свойств у разделов - добавлена возможность сортировки по свойству раздела - добавлена возможность фильтрации по свойству раздела
+2020-01-24 10:40:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:19 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.1%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:19 -  - TIME LoadModulesUpdates(request) 0.382 sec
+2020-01-24 10:40:19 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:19 - S - STEP
+2020-01-24 10:40:19 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:20 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:20 -  - loadFile
+2020-01-24 10:40:20 - U - RETURN
+2020-01-24 10:40:20 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:20 -  - TIME UnGzipArchive 0.012 sec
+2020-01-24 10:40:20 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851620/dev2fun.sectionswithelements/updater0.2.2.php'
+2020-01-24 10:40:20 -  - TIME UpdateStepModules 0.02 sec
+2020-01-24 10:40:20 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.2)<br>- Теперь можно вывести кол-во элементов в разделе, передав в параметр \"SECTION_CHECK_EMPTY\" значение \"Y\"
+2020-01-24 10:40:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.2%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:21 -  - TIME LoadModulesUpdates(request) 0.445 sec
+2020-01-24 10:40:21 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:21 - S - STEP
+2020-01-24 10:40:21 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:21 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:21 -  - loadFile
+2020-01-24 10:40:22 - U - RETURN
+2020-01-24 10:40:22 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:22 -  - TIME UnGzipArchive 0.017 sec
+2020-01-24 10:40:22 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851622/dev2fun.sectionswithelements/updater0.2.3.php'
+2020-01-24 10:40:22 -  - TIME UpdateStepModules 0.042 sec
+2020-01-24 10:40:22 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.3)<br>- Добавлен параметр \"NEWS_SHOW_SECTION\". Разрешает/запрещает возврат (и сам запрос) в результирующем массиве списка элементов; - Добавлен параметр \"SECTION_CNT_ELEMENTS\". Возвращает в результирующем массив количество элементов в разделе. Считает только активные элементы; Если параметр \"SECTION_CHILD\" стоит в \"Y\", то учитывает ещё элементы в подразделах; - Пофиксен баг с выводом структуры. Теперь чтоб вывести структуру нужно в параметр \"SECTION_DEPTH\" передать уровень с которого структуру нужно выводить; - Пофиксен баг с возвратом в результирующем массиве разделов из других инфоблоков указанного типа инфоблока; - Улучшен эрмитаж в подразделах.
+2020-01-24 10:40:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:22 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.3%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:23 -  - TIME LoadModulesUpdates(request) 1.157 sec
+2020-01-24 10:40:23 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:23 - S - STEP
+2020-01-24 10:40:23 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:23 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:23 -  - loadFile
+2020-01-24 10:40:24 - U - RETURN
+2020-01-24 10:40:24 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:24 -  - TIME UnGzipArchive 0.019 sec
+2020-01-24 10:40:24 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851624/dev2fun.sectionswithelements/updater0.2.4.php'
+2020-01-24 10:40:24 -  - TIME UpdateStepModules 0.049 sec
+2020-01-24 10:40:24 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.4)<br>- Поправлено множество багов<br> - Добавлена логика вывода многоуровневых разделов вместе с элементами
+2020-01-24 10:40:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:24 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.4%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:25 -  - TIME LoadModulesUpdates(request) 0.414 sec
+2020-01-24 10:40:25 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:25 - S - STEP
+2020-01-24 10:40:25 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:25 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:25 -  - loadFile
+2020-01-24 10:40:26 - U - RETURN
+2020-01-24 10:40:26 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:26 -  - TIME UnGzipArchive 0.009 sec
+2020-01-24 10:40:26 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851626/dev2fun.sectionswithelements/updater0.2.6.php'
+2020-01-24 10:40:26 -  - TIME UpdateStepModules 0.018 sec
+2020-01-24 10:40:26 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.6)<br>- добавлена поддержка старых версий php5
+2020-01-24 10:40:26 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:26 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:26 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.6%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:26 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:28 -  - TIME LoadModulesUpdates(request) 1.68 sec
+2020-01-24 10:40:28 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:28 - S - STEP
+2020-01-24 10:40:28 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:28 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:28 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:28 -  - loadFile
+2020-01-24 10:40:28 - U - RETURN
+2020-01-24 10:40:28 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:28 -  - TIME UnGzipArchive 0.021 sec
+2020-01-24 10:40:28 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851628/dev2fun.sectionswithelements/updater0.2.7.php'
+2020-01-24 10:40:28 -  - TIME UpdateStepModules 0.031 sec
+2020-01-24 10:40:28 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.7)<br>- поправлена проблема с выводом свойств у элементов - поправлена кодировка в настройках компонента
+2020-01-24 10:40:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.7%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:30 -  - TIME LoadModulesUpdates(request) 0.827 sec
+2020-01-24 10:40:30 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:30 - S - STEP
+2020-01-24 10:40:30 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:30 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:30 -  - loadFile
+2020-01-24 10:40:30 - U - RETURN
+2020-01-24 10:40:30 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:30 -  - TIME UnGzipArchive 0.018 sec
+2020-01-24 10:40:30 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851630/dev2fun.sectionswithelements/updater0.2.8.php'
+2020-01-24 10:40:30 -  - TIME UpdateStepModules 0.03 sec
+2020-01-24 10:40:30 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.8)<br>- поправлена кодировка в настройках компонента
+2020-01-24 10:40:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.8%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:31 -  - TIME LoadModulesUpdates(request) 0.426 sec
+2020-01-24 10:40:31 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:31 - S - STEP
+2020-01-24 10:40:31 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:31 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:31 -  - loadFile
+2020-01-24 10:40:32 - U - RETURN
+2020-01-24 10:40:32 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:32 -  - TIME UnGzipArchive 0.021 sec
+2020-01-24 10:40:32 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851632/dev2fun.sectionswithelements/updater0.2.9.php'
+2020-01-24 10:40:32 -  - TIME UpdateStepModules 0.019 sec
+2020-01-24 10:40:32 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.9)<br>- поправлен баг с сортировкой разделов
+2020-01-24 10:40:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:32 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.9%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:32 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:33 -  - TIME LoadModulesUpdates(request) 0.908 sec
+2020-01-24 10:40:33 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:33 - S - STEP
+2020-01-24 10:40:33 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:33 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:33 -  - loadFile
+2020-01-24 10:40:34 - U - RETURN
+2020-01-24 10:40:34 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:34 -  - TIME UnGzipArchive 0.012 sec
+2020-01-24 10:40:34 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851634/dev2fun.sectionswithelements/updater0.2.10.php'
+2020-01-24 10:40:34 -  - TIME UpdateStepModules 0.037 sec
+2020-01-24 10:40:34 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.10)<br>- обновлено название и описание
+2020-01-24 10:40:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.10%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:34 -  - TIME LoadModulesUpdates(request) 0.417 sec
+2020-01-24 10:40:34 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:34 - S - STEP
+2020-01-24 10:40:34 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:35 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:35 -  - loadFile
+2020-01-24 10:40:35 - U - RETURN
+2020-01-24 10:40:35 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:35 -  - TIME UnGzipArchive 0.011 sec
+2020-01-24 10:40:35 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851635/dev2fun.sectionswithelements/updater0.2.11.php'
+2020-01-24 10:40:35 -  - TIME UpdateStepModules 0.027 sec
+2020-01-24 10:40:35 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.11)<br>- Сделана поддержка вывода элементов из корня инфоблока
+2020-01-24 10:40:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:35 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.11%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:36 -  - TIME LoadModulesUpdates(request) 0.345 sec
+2020-01-24 10:40:36 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:36 - S - STEP
+2020-01-24 10:40:36 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:36 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:36 -  - loadFile
+2020-01-24 10:40:38 - U - RETURN
+2020-01-24 10:40:38 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:38 -  - TIME UnGzipArchive 0.019 sec
+2020-01-24 10:40:38 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851638/dev2fun.sectionswithelements/updater0.2.12.php'
+2020-01-24 10:40:38 -  - TIME UpdateStepModules 0.035 sec
+2020-01-24 10:40:38 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.12)<br>- исправлен вывод структуры разделов. Теперь по умолчанию выводится вся структура.<br> - исправлена сортировка разделов. Теперь работает.<br> - вывод элементов из корня теперь выше вывода структуры разделов<br> - теперь при отключении вывода элементов, не нужные поля скрываются<br> - исправлены варнинги
+2020-01-24 10:40:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.12%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:39 -  - TIME LoadModulesUpdates(request) 0.361 sec
+2020-01-24 10:40:39 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:39 - S - STEP
+2020-01-24 10:40:39 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:39 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:39 -  - loadFile
+2020-01-24 10:40:40 - U - RETURN
+2020-01-24 10:40:40 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:40 -  - TIME UnGzipArchive 0.015 sec
+2020-01-24 10:40:40 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851640/dev2fun.sectionswithelements/updater0.2.13.php'
+2020-01-24 10:40:40 -  - TIME UpdateStepModules 0.047 sec
+2020-01-24 10:40:40 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.13)<br>- Теперь параметр SECTION_ID возвращает все переданные в него индентификаторы<br> - Параметр SECTION_CODE теперь не множественный<br> - Добавлен новый параметр PARENT_SECTION_ID, его задача вывести разделы по идентификатору родителя
+2020-01-24 10:40:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:40 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.13%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:40 -  - TIME LoadModulesUpdates(request) 0.433 sec
+2020-01-24 10:40:40 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:40 - S - STEP
+2020-01-24 10:40:40 - LMU01 - LoadModulesUpdates-Step
+2020-01-24 10:40:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:41 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:41 -  - loadFile
+2020-01-24 10:40:41 - U - RETURN
+2020-01-24 10:40:41 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-01-24 10:40:41 -  - TIME UnGzipArchive 0.007 sec
+2020-01-24 10:40:41 - CSURUS1 - Run updater '/bitrix/updates/update_m1579851641/dev2fun.sectionswithelements/updater0.2.14.php'
+2020-01-24 10:40:41 -  - TIME UpdateStepModules 0.017 sec
+2020-01-24 10:40:41 - UPD_SUCCESS - Updated: dev2fun.sectionswithelements (0.2.14)<br>- Параметр PARENT_SECTION_CODE переименован в SECTION_CODE
+2020-01-24 10:40:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-01-24 10:40:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:41 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=dev2fun.sectionswithelements&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:41 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:42 -  - TIME LoadModulesUpdates(request) 0.378 sec
+2020-01-24 10:40:42 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:40:42 - STEP - Finish - NOUPDATES
+2020-01-24 10:40:42 - STEP - Finish - NOUPDATES
+2020-01-24 10:40:45 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-24 10:40:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:40:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:40:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:40:46 -  - TIME GetUpdatesList(request) 0.418 sec
+2020-01-24 10:40:46 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:43:20 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-24 10:43:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:43:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cdev2fun.sectionswithelements&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:43:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:43:21 -  - TIME GetUpdatesList(request) 1.129 sec
+2020-01-24 10:43:21 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-24 10:43:47 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-24 10:43:47 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-24 10:43:47 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-24 10:43:47 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-24 10:43:47 -  - TIME GetUpdatesList(request) 0.422 sec
+2020-01-24 10:43:47 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-27 11:41:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-27 11:41:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-27 11:41:24 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-27 11:41:24 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-27 11:41:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-27 11:41:24 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-27 11:41:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-27 11:41:24 -  - TIME GetUpdatesList(request) 0.487 sec
+2020-01-27 11:41:24 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-27 11:41:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-27 11:41:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-27 11:41:24 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-28 13:02:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-28 13:02:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-28 13:02:16 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-28 13:02:16 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-28 13:02:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-28 13:02:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-28 13:02:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-28 13:02:17 -  - TIME GetUpdatesList(request) 0.358 sec
+2020-01-28 13:02:17 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-28 13:02:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-28 13:02:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-28 13:02:17 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-29 13:02:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-29 13:02:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-29 13:02:29 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-29 13:02:29 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-29 13:02:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-29 13:02:29 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-29 13:02:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-29 13:02:29 -  - TIME GetUpdatesList(request) 0.426 sec
+2020-01-29 13:02:29 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-29 13:02:29 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-29 13:02:29 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-29 13:02:30 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-30 13:06:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-30 13:06:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-30 13:06:03 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-30 13:06:03 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-30 13:06:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-30 13:06:03 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero.site-asmart.ru&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.6&NGINX=Y&dbv=5.7.23&instm=main%2C20.0.0%2CY%3Bbitrixcloud%2C18.5.0%2CN%3Bseo%2C19.0.800%2CN%3Bfileman%2C18.5.500%2CN%3Bcompression%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bmessageservice%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Bsearch%2C18.5.200%2CN%3Bb24connector%2C18.5.0%2CN%3Bui%2C19.0.400%2CN%3Bhighloadblock%2C19.0.0%2CN%3Bclouds%2C19.0.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Brest%2C18.5.162%2CN%3Bsocialservices%2C19.0.0%2CN&reqm=nsandrey.emptyinstall%2Cbitrix.sitecorporate%2Cdev2fun.sectionswithelements&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-30 13:06:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-30 13:06:03 -  - TIME GetUpdatesList(request) 0.246 sec
+2020-01-30 13:06:03 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-30 13:06:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-30 13:06:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-30 13:06:03 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-31 13:12:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-31 13:12:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-31 13:12:39 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-31 13:12:39 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-01-31 13:12:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-31 13:12:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-01-31 13:12:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-31 13:12:40 -  - TIME GetUpdatesList(request) 0.672 sec
+2020-01-31 13:12:40 -  - exec CUpdateClientPartner::ParseServerData
+2020-01-31 13:12:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-01-31 13:12:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-01-31 13:12:43 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-03 11:59:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-03 11:59:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-03 11:59:17 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-03 11:59:17 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-03 11:59:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-03 11:59:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-03 11:59:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-03 11:59:17 -  - TIME GetUpdatesList(request) 0.305 sec
+2020-02-03 11:59:17 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-03 11:59:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-03 11:59:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-03 11:59:18 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-04 11:59:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-04 11:59:25 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-04 11:59:27 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-04 11:59:27 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-04 11:59:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-04 11:59:27 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-04 11:59:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-04 11:59:27 -  - TIME GetUpdatesList(request) 0.734 sec
+2020-02-04 11:59:27 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-04 11:59:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-04 11:59:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-04 11:59:28 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:33:44 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 10:33:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:33:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:33:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:33:44 -  - TIME GetUpdatesList(request) 0.565 sec
+2020-02-05 10:33:44 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:33:53 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 10:33:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:33:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:33:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:33:54 -  - TIME GetUpdatesList(request) 0.691 sec
+2020-02-05 10:33:54 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:52:34 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 10:52:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:52:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.smtp&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:52:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:52:35 -  - TIME GetUpdatesList(request) 0.706 sec
+2020-02-05 10:52:35 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:52:45 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:52:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:52:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:52:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:52:46 -  - TIME LoadModulesUpdates(request) 1.386 sec
+2020-02-05 10:52:46 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:52:46 - S - STEP
+2020-02-05 10:52:46 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:52:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:52:47 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:52:47 -  - loadFile
+2020-02-05 10:52:50 - U - RETURN
+2020-02-05 10:52:50 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:52:50 -  - TIME UnGzipArchive 0.082 sec
+2020-02-05 10:52:51 -  - TIME UpdateStepModules 0.21 sec
+2020-02-05 10:52:51 - UPD_SUCCESS - Updated: webprostor.smtp
+2020-02-05 10:52:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:52:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:52:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C0.4.0%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:52:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:52:52 -  - TIME LoadModulesUpdates(request) 0.755 sec
+2020-02-05 10:52:52 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:52:52 - S - STEP
+2020-02-05 10:52:52 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:52:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:52:52 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:52:52 -  - loadFile
+2020-02-05 10:52:53 - U - RETURN
+2020-02-05 10:52:53 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:52:53 -  - TIME UnGzipArchive 0.035 sec
+2020-02-05 10:52:53 -  - TIME UpdateStepModules 0.081 sec
+2020-02-05 10:52:53 - UPD_SUCCESS - Updated: webprostor.smtp (0.4.1)<br>Добавлена отправка нескольким получателям (CC и BCC)<br /> Исправлена ошибка при которой не добавлялся заголовок \"To:\"<br /> Добавлены дополнительные настройки модуля для журнала ошибок<br /> Параметр модуля \"X-Priority\" переделан в список \"Важность\" вместо поля для ввода числа
+2020-02-05 10:52:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:52:53 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:52:53 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C0.4.1%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:52:53 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:52:54 -  - TIME LoadModulesUpdates(request) 0.696 sec
+2020-02-05 10:52:54 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:52:54 - S - STEP
+2020-02-05 10:52:54 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:52:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:52:54 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:52:54 -  - loadFile
+2020-02-05 10:52:55 - U - RETURN
+2020-02-05 10:52:55 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:52:55 -  - TIME UnGzipArchive 0.016 sec
+2020-02-05 10:52:55 -  - TIME UpdateStepModules 0.056 sec
+2020-02-05 10:52:55 - UPD_SUCCESS - Updated: webprostor.smtp (0.4.2)<br>Добавлено определение ошибок для отсутствующей защиты соединения для портов 465 и 587
+2020-02-05 10:52:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:52:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:52:56 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C0.4.2%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:52:56 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:52:56 -  - TIME LoadModulesUpdates(request) 0.717 sec
+2020-02-05 10:52:56 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:52:56 - S - STEP
+2020-02-05 10:52:56 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:52:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:52:57 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:52:57 -  - loadFile
+2020-02-05 10:52:58 - U - RETURN
+2020-02-05 10:52:58 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:52:58 -  - TIME UnGzipArchive 0.02 sec
+2020-02-05 10:52:58 -  - TIME UpdateStepModules 0.061 sec
+2020-02-05 10:52:58 - UPD_SUCCESS - Updated: webprostor.smtp (0.4.3)<br>Добавлен параметр для соединения \"Требуется авторизация\"<br /> Исправлена ошибка авторизации при использовании smtp.mail.ru
+2020-02-05 10:52:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:52:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:52:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C0.4.3%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:52:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:04 -  - TIME LoadModulesUpdates(request) 5.268 sec
+2020-02-05 10:53:04 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:04 - S - STEP
+2020-02-05 10:53:04 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:04 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:04 -  - loadFile
+2020-02-05 10:53:08 - U - RETURN
+2020-02-05 10:53:08 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:08 -  - TIME UnGzipArchive 0.023 sec
+2020-02-05 10:53:08 -  - TIME UpdateStepModules 0.059 sec
+2020-02-05 10:53:08 - UPD_SUCCESS - Updated: webprostor.smtp (0.4.4)<br>Исправление ошибок<br /> В настройках у сайта добавлена опция \"Дублировать сообщения\". При ручной отправке писем, письма будут дополнительно отправляться получателям из настроек главного модуля
+2020-02-05 10:53:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C0.4.4%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:09 -  - TIME LoadModulesUpdates(request) 0.708 sec
+2020-02-05 10:53:09 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:09 - S - STEP
+2020-02-05 10:53:09 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:09 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:09 -  - loadFile
+2020-02-05 10:53:10 - U - RETURN
+2020-02-05 10:53:10 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:10 -  - TIME UnGzipArchive 0.021 sec
+2020-02-05 10:53:10 - CSURUS1 - Run updater '/bitrix/updates/update_m1580889190/webprostor.smtp/updater0.4.5.php'
+2020-02-05 10:53:10 -  - TIME UpdateStepModules 0.046 sec
+2020-02-05 10:53:10 - UPD_SUCCESS - Updated: webprostor.smtp (0.4.5)<br>В процессе установки, модуль предоставит возможность установить необходимые дополнительные модули<br /> В процессе установки, модуль будет копировать файл init.php с необходимыми настройками в директорию /bitrix/php_interface (если такого файла не существует)
+2020-02-05 10:53:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C0.4.5%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:14 -  - TIME LoadModulesUpdates(request) 3.724 sec
+2020-02-05 10:53:14 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:14 - S - STEP
+2020-02-05 10:53:14 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:14 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:14 -  - loadFile
+2020-02-05 10:53:15 - U - RETURN
+2020-02-05 10:53:15 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:15 -  - TIME UnGzipArchive 0.031 sec
+2020-02-05 10:53:15 -  - TIME UpdateStepModules 0.088 sec
+2020-02-05 10:53:15 - UPD_SUCCESS - Updated: webprostor.smtp (0.5.0)<br>В общие настройки модуля в раздел \"Журнал ошибок\" добавлен параметр \"Записывать выполняемые команды\"<br /> Незначительные изменения
+2020-02-05 10:53:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C0.5.0%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:16 -  - TIME LoadModulesUpdates(request) 0.631 sec
+2020-02-05 10:53:16 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:16 - S - STEP
+2020-02-05 10:53:16 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:16 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:16 -  - loadFile
+2020-02-05 10:53:17 - U - RETURN
+2020-02-05 10:53:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:17 -  - TIME UnGzipArchive 0.018 sec
+2020-02-05 10:53:17 -  - TIME UpdateStepModules 0.042 sec
+2020-02-05 10:53:17 - UPD_SUCCESS - Updated: webprostor.smtp (0.6.0)<br>Незначительные улучшения
+2020-02-05 10:53:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C0.6.0%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:18 -  - TIME LoadModulesUpdates(request) 0.535 sec
+2020-02-05 10:53:18 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:18 - S - STEP
+2020-02-05 10:53:18 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:19 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:19 -  - loadFile
+2020-02-05 10:53:19 - U - RETURN
+2020-02-05 10:53:19 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:19 -  - TIME UnGzipArchive 0.035 sec
+2020-02-05 10:53:19 -  - TIME UpdateStepModules 0.062 sec
+2020-02-05 10:53:19 - UPD_SUCCESS - Updated: webprostor.smtp (0.7.0)<br>Список получателей для отправки теперь проверяется на уникальность адресов<br /> Добавлен фильтр по логам
+2020-02-05 10:53:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C0.7.0%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:20 -  - TIME LoadModulesUpdates(request) 0.668 sec
+2020-02-05 10:53:20 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:20 - S - STEP
+2020-02-05 10:53:20 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:21 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:21 -  - loadFile
+2020-02-05 10:53:21 - U - RETURN
+2020-02-05 10:53:21 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:21 -  - TIME UnGzipArchive 0.014 sec
+2020-02-05 10:53:21 -  - TIME UpdateStepModules 0.032 sec
+2020-02-05 10:53:21 - UPD_SUCCESS - Updated: webprostor.smtp (1.0.0)<br>Улучшена интеграция с модулем \"Email-маркетинг\"<br /> Внимание!!! Необходимо вручную обновить код вызова функции custom_mail() в файле /bitrix/php_interface/init.php в том случае, если установка модуля уже произведена (смотрите вкладку \"Установка\")
+2020-02-05 10:53:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.0.0%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:22 -  - TIME LoadModulesUpdates(request) 0.647 sec
+2020-02-05 10:53:22 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:22 - S - STEP
+2020-02-05 10:53:22 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:22 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:22 -  - loadFile
+2020-02-05 10:53:23 - U - RETURN
+2020-02-05 10:53:23 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:23 -  - TIME UnGzipArchive 0.011 sec
+2020-02-05 10:53:23 -  - TIME UpdateStepModules 0.03 sec
+2020-02-05 10:53:23 - UPD_SUCCESS - Updated: webprostor.smtp (1.0.1)<br>Добавлена проверка email получателя и его форматирование
+2020-02-05 10:53:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.0.1%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:24 -  - TIME LoadModulesUpdates(request) 0.721 sec
+2020-02-05 10:53:24 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:24 - S - STEP
+2020-02-05 10:53:24 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:24 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:24 -  - loadFile
+2020-02-05 10:53:25 - U - RETURN
+2020-02-05 10:53:25 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:25 -  - TIME UnGzipArchive 0.014 sec
+2020-02-05 10:53:25 -  - TIME UpdateStepModules 0.041 sec
+2020-02-05 10:53:25 - UPD_SUCCESS - Updated: webprostor.smtp (1.0.2)<br>Исправлены ошибки при использовании защищенного TLS-соединения
+2020-02-05 10:53:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:25 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.0.2%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:25 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:29 -  - TIME LoadModulesUpdates(request) 3.722 sec
+2020-02-05 10:53:29 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:29 - S - STEP
+2020-02-05 10:53:29 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:29 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:29 -  - loadFile
+2020-02-05 10:53:30 - U - RETURN
+2020-02-05 10:53:30 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:30 -  - TIME UnGzipArchive 0.027 sec
+2020-02-05 10:53:30 -  - TIME UpdateStepModules 0.074 sec
+2020-02-05 10:53:30 - UPD_SUCCESS - Updated: webprostor.smtp (1.0.3)<br>Добавлена возможность указывать \"Тип приветствия\". Рекомендуется заново сохранить настройки модуля!
+2020-02-05 10:53:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:30 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.0.3%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:31 -  - TIME LoadModulesUpdates(request) 0.703 sec
+2020-02-05 10:53:31 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:31 - S - STEP
+2020-02-05 10:53:31 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:32 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:32 -  - loadFile
+2020-02-05 10:53:32 - U - RETURN
+2020-02-05 10:53:32 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:32 -  - TIME UnGzipArchive 0.016 sec
+2020-02-05 10:53:32 -  - TIME UpdateStepModules 0.032 sec
+2020-02-05 10:53:32 - UPD_SUCCESS - Updated: webprostor.smtp (1.0.4)<br>Незначительные улучшения
+2020-02-05 10:53:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:32 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.0.4%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:32 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:33 -  - TIME LoadModulesUpdates(request) 0.604 sec
+2020-02-05 10:53:33 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:33 - S - STEP
+2020-02-05 10:53:33 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:33 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:33 -  - loadFile
+2020-02-05 10:53:34 - U - RETURN
+2020-02-05 10:53:34 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:34 -  - TIME UnGzipArchive 0.037 sec
+2020-02-05 10:53:34 -  - TIME UpdateStepModules 0.093 sec
+2020-02-05 10:53:34 - UPD_SUCCESS - Updated: webprostor.smtp (1.0.5)<br>Незначительные исправления<br /> Журнал операций переведен на новый грид, оптимизирован фильтр<br /> Теперь, при отправке письма, если включено логирование, будет происходит проверка на количество записей в журнале операций. Если больше 1000, то будет показано уведомление о необходимости очистить журнал операций
+2020-02-05 10:53:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.0.5%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:35 -  - TIME LoadModulesUpdates(request) 0.5 sec
+2020-02-05 10:53:35 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:35 - S - STEP
+2020-02-05 10:53:35 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:35 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:35 -  - loadFile
+2020-02-05 10:53:36 - U - RETURN
+2020-02-05 10:53:36 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:36 -  - TIME UnGzipArchive 0.054 sec
+2020-02-05 10:53:36 - CSURUS1 - Run updater '/bitrix/updates/update_m1580889216/webprostor.smtp/updater1.1.0.php'
+2020-02-05 10:53:36 -  - TIME UpdateStepModules 0.12 sec
+2020-02-05 10:53:36 - UPD_SUCCESS - Updated: webprostor.smtp (1.1.0)<br>Теперь при установке модуля идет проверка на наличие нескольких сайтов. Если сайт только один, то init.php копируется в /bitrix/php_interface/. Если сайтов несколько, то для каждого из них копируется отдельный файл init.php с вызовом настроек для конкретного сайта<br /> В общие настройки добавлен параметр \"Создавать init.php для новых сайтов\"<br /> В общие настройки добавлен параметр \"Удалять init.php при удалении сайта\"<br /> Исправление ошибок<br /> Незначительные изменения
+2020-02-05 10:53:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.1.0%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:37 -  - TIME LoadModulesUpdates(request) 0.628 sec
+2020-02-05 10:53:37 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:37 - S - STEP
+2020-02-05 10:53:37 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:37 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:37 -  - loadFile
+2020-02-05 10:53:38 - U - RETURN
+2020-02-05 10:53:38 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:38 -  - TIME UnGzipArchive 0.021 sec
+2020-02-05 10:53:38 -  - TIME UpdateStepModules 0.039 sec
+2020-02-05 10:53:38 - UPD_SUCCESS - Updated: webprostor.smtp (1.1.1)<br>Добавлена ссылка на QIWI копилку
+2020-02-05 10:53:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.1.1%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:39 -  - TIME LoadModulesUpdates(request) 0.709 sec
+2020-02-05 10:53:39 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:39 - S - STEP
+2020-02-05 10:53:39 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:53:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:39 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:39 -  - loadFile
+2020-02-05 10:53:39 - U - RETURN
+2020-02-05 10:53:39 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:53:39 -  - TIME UnGzipArchive 0.015 sec
+2020-02-05 10:53:40 -  - TIME UpdateStepModules 0.036 sec
+2020-02-05 10:53:40 - UPD_SUCCESS - Updated: webprostor.smtp (1.1.2)<br>Исправление ошибок
+2020-02-05 10:53:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:53:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:40 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.smtp&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:41 -  - TIME LoadModulesUpdates(request) 0.595 sec
+2020-02-05 10:53:41 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:53:41 - STEP - Finish - NOUPDATES
+2020-02-05 10:53:41 - STEP - Finish - NOUPDATES
+2020-02-05 10:53:58 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 10:53:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:53:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.smtp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:53:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:53:59 -  - TIME GetUpdatesList(request) 0.643 sec
+2020-02-05 10:53:59 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:27 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 10:55:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:55:27 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.smtp%2Cwebprostor.core&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:55:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:55:28 -  - TIME GetUpdatesList(request) 0.829 sec
+2020-02-05 10:55:28 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:55:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:55:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:55:35 -  - TIME LoadModulesUpdates(request) 0.608 sec
+2020-02-05 10:55:35 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:35 - S - STEP
+2020-02-05 10:55:35 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:55:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:35 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:35 -  - loadFile
+2020-02-05 10:55:35 - U - RETURN
+2020-02-05 10:55:35 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:55:35 -  - TIME UnGzipArchive 0.031 sec
+2020-02-05 10:55:36 -  - TIME UpdateStepModules 0.1 sec
+2020-02-05 10:55:36 - UPD_SUCCESS - Updated: webprostor.core
+2020-02-05 10:55:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:55:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C0.2.3%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:55:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:55:37 -  - TIME LoadModulesUpdates(request) 0.574 sec
+2020-02-05 10:55:37 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:37 - S - STEP
+2020-02-05 10:55:37 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:55:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:37 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:37 -  - loadFile
+2020-02-05 10:55:38 - U - RETURN
+2020-02-05 10:55:38 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:55:38 -  - TIME UnGzipArchive 0.053 sec
+2020-02-05 10:55:38 - CSURUS1 - Run updater '/bitrix/updates/update_m1580889338/webprostor.core/updater0.3.0.php'
+2020-02-05 10:55:38 -  - TIME UpdateStepModules 0.148 sec
+2020-02-05 10:55:38 - UPD_SUCCESS - Updated: webprostor.core (0.3.0)<br>Добавлен скрипт \"select2\" для панели управления<br /> Добавлены базовые js-функции
+2020-02-05 10:55:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:55:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C0.3.0%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:55:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:55:42 -  - TIME LoadModulesUpdates(request) 3.324 sec
+2020-02-05 10:55:42 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:42 - S - STEP
+2020-02-05 10:55:42 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:55:42 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:42 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:42 -  - loadFile
+2020-02-05 10:55:42 - U - RETURN
+2020-02-05 10:55:42 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:55:42 -  - TIME UnGzipArchive 0.018 sec
+2020-02-05 10:55:42 - CSURUS1 - Run updater '/bitrix/updates/update_m1580889342/webprostor.core/updater0.4.0.php'
+2020-02-05 10:55:43 -  - TIME UpdateStepModules 0.03 sec
+2020-02-05 10:55:43 - UPD_SUCCESS - Updated: webprostor.core (0.4.0)<br>Исправление ошибок
+2020-02-05 10:55:43 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:55:43 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C0.4.0%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:55:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:55:44 -  - TIME LoadModulesUpdates(request) 0.59 sec
+2020-02-05 10:55:44 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:44 - S - STEP
+2020-02-05 10:55:44 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:55:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:44 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:44 -  - loadFile
+2020-02-05 10:55:44 - U - RETURN
+2020-02-05 10:55:44 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:55:45 -  - TIME UnGzipArchive 0.018 sec
+2020-02-05 10:55:45 - CSURUS1 - Run updater '/bitrix/updates/update_m1580889345/webprostor.core/updater0.4.1.php'
+2020-02-05 10:55:45 -  - TIME UpdateStepModules 0.045 sec
+2020-02-05 10:55:45 - UPD_SUCCESS - Updated: webprostor.core (0.4.1)<br>Для js функции WebprostorCoreCheckActive() добавлен 2-ой параметр в значении массива id-элементов, которых нужно отключить если значение текущего свойства формы не активно
+2020-02-05 10:55:45 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:55:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C0.4.1%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:55:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:55:46 -  - TIME LoadModulesUpdates(request) 0.634 sec
+2020-02-05 10:55:46 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:46 - S - STEP
+2020-02-05 10:55:46 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:55:46 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:46 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:46 -  - loadFile
+2020-02-05 10:55:50 - U - RETURN
+2020-02-05 10:55:50 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:55:50 -  - TIME UnGzipArchive 0.041 sec
+2020-02-05 10:55:50 - CSURUS1 - Run updater '/bitrix/updates/update_m1580889350/webprostor.core/updater0.5.0.php'
+2020-02-05 10:55:50 -  - TIME UpdateStepModules 0.086 sec
+2020-02-05 10:55:50 - UPD_SUCCESS - Updated: webprostor.core (0.5.0)<br>Добавлена Jquery UI
+2020-02-05 10:55:50 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:55:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C0.5.0%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:55:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:55:54 -  - TIME LoadModulesUpdates(request) 3.547 sec
+2020-02-05 10:55:54 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:54 - S - STEP
+2020-02-05 10:55:54 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:55:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:55 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:55 -  - loadFile
+2020-02-05 10:55:57 - U - RETURN
+2020-02-05 10:55:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:55:57 -  - TIME UnGzipArchive 0.077 sec
+2020-02-05 10:55:57 - CSURUS1 - Run updater '/bitrix/updates/update_m1580889357/webprostor.core/updater1.0.0.php'
+2020-02-05 10:55:57 -  - TIME UpdateStepModules 0.231 sec
+2020-02-05 10:55:57 - UPD_SUCCESS - Updated: webprostor.core (1.0.0)<br>Добавлена функция WebprostorCorePutString(str, element_id);<br /> Добавлена функция WebprostorCoreReplaceString(str, element_id)<br /> При сохранении настроек модулей, теперь переадресовывает на активную вкладку
+2020-02-05 10:55:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:55:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.0%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:55:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:55:58 -  - TIME LoadModulesUpdates(request) 0.303 sec
+2020-02-05 10:55:58 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:58 - S - STEP
+2020-02-05 10:55:58 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:55:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:59 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:55:59 -  - loadFile
+2020-02-05 10:55:59 - U - RETURN
+2020-02-05 10:55:59 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:55:59 -  - TIME UnGzipArchive 0.021 sec
+2020-02-05 10:55:59 -  - TIME UpdateStepModules 0.042 sec
+2020-02-05 10:55:59 - UPD_SUCCESS - Updated: webprostor.core (1.0.1)<br>Добавлена php-функция CWebprostorCoreFunctions::ShowFormFields($arFields = Array())
+2020-02-05 10:55:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:55:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:55:59 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.1%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:55:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:00 -  - TIME LoadModulesUpdates(request) 0.64 sec
+2020-02-05 10:56:00 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:00 - S - STEP
+2020-02-05 10:56:00 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:56:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:00 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:00 -  - loadFile
+2020-02-05 10:56:01 - U - RETURN
+2020-02-05 10:56:01 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:56:01 -  - TIME UnGzipArchive 0.026 sec
+2020-02-05 10:56:01 -  - TIME UpdateStepModules 0.066 sec
+2020-02-05 10:56:01 - UPD_SUCCESS - Updated: webprostor.core (1.0.2)<br>Добавлен класс CWebprostorCoreFilter
+2020-02-05 10:56:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.2%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:02 -  - TIME LoadModulesUpdates(request) 0.638 sec
+2020-02-05 10:56:02 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:02 - S - STEP
+2020-02-05 10:56:02 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:56:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:02 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:02 -  - loadFile
+2020-02-05 10:56:03 - U - RETURN
+2020-02-05 10:56:03 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:56:03 -  - TIME UnGzipArchive 0.027 sec
+2020-02-05 10:56:03 -  - TIME UpdateStepModules 0.084 sec
+2020-02-05 10:56:03 - UPD_SUCCESS - Updated: webprostor.core (1.0.3)<br>Незначительные улучшения
+2020-02-05 10:56:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:03 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.3%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:04 -  - TIME LoadModulesUpdates(request) 0.704 sec
+2020-02-05 10:56:04 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:04 - S - STEP
+2020-02-05 10:56:04 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:56:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:04 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:04 -  - loadFile
+2020-02-05 10:56:06 - U - RETURN
+2020-02-05 10:56:06 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:56:06 -  - TIME UnGzipArchive 0.109 sec
+2020-02-05 10:56:06 - CSURUS1 - Run updater '/bitrix/updates/update_m1580889366/webprostor.core/updater1.0.4.php'
+2020-02-05 10:56:06 -  - TIME UpdateStepModules 0.281 sec
+2020-02-05 10:56:06 - UPD_SUCCESS - Updated: webprostor.core (1.0.4)<br>Обновление функций<br /> Добавлена библиотека Bootstrap 3.4.1<br /> Добавлена библиотека uploader<br /> Добавлена библиотека Bootstrap v4.3.1<br />
+2020-02-05 10:56:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.4%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:07 -  - TIME LoadModulesUpdates(request) 0.517 sec
+2020-02-05 10:56:07 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:07 - S - STEP
+2020-02-05 10:56:07 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:56:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:08 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:08 -  - loadFile
+2020-02-05 10:56:08 - U - RETURN
+2020-02-05 10:56:08 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:56:08 -  - TIME UnGzipArchive 0.019 sec
+2020-02-05 10:56:08 -  - TIME UpdateStepModules 0.044 sec
+2020-02-05 10:56:08 - UPD_SUCCESS - Updated: webprostor.core (1.0.5)<br>Исправление ошибок
+2020-02-05 10:56:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.5%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:09 -  - TIME LoadModulesUpdates(request) 0.337 sec
+2020-02-05 10:56:09 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:09 - S - STEP
+2020-02-05 10:56:09 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:56:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:09 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:09 -  - loadFile
+2020-02-05 10:56:10 - U - RETURN
+2020-02-05 10:56:10 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:56:10 -  - TIME UnGzipArchive 0.014 sec
+2020-02-05 10:56:10 -  - TIME UpdateStepModules 0.031 sec
+2020-02-05 10:56:10 - UPD_SUCCESS - Updated: webprostor.core (1.0.6)<br>Плановое обновление
+2020-02-05 10:56:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.6%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:11 -  - TIME LoadModulesUpdates(request) 0.668 sec
+2020-02-05 10:56:11 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:11 - S - STEP
+2020-02-05 10:56:11 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:56:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:11 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:11 -  - loadFile
+2020-02-05 10:56:11 - U - RETURN
+2020-02-05 10:56:11 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:56:11 -  - TIME UnGzipArchive 0.016 sec
+2020-02-05 10:56:11 -  - TIME UpdateStepModules 0.037 sec
+2020-02-05 10:56:11 - UPD_SUCCESS - Updated: webprostor.core (1.0.7)<br>Исправление ошибок<br /> Добавлена php-функция CWebprostorCoreFunctions::GenerateRandomCode($length);
+2020-02-05 10:56:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.7%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:12 -  - TIME LoadModulesUpdates(request) 0.513 sec
+2020-02-05 10:56:12 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:12 - S - STEP
+2020-02-05 10:56:12 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:56:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:13 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:13 -  - loadFile
+2020-02-05 10:56:13 - U - RETURN
+2020-02-05 10:56:13 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:56:13 -  - TIME UnGzipArchive 0.017 sec
+2020-02-05 10:56:13 -  - TIME UpdateStepModules 0.034 sec
+2020-02-05 10:56:13 - UPD_SUCCESS - Updated: webprostor.core (1.0.8)<br>Добавлена функция CWebprostorCoreIblock::GetDefaultProperties($IBLOCK_ID)
+2020-02-05 10:56:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:13 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.8%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:14 -  - TIME LoadModulesUpdates(request) 0.648 sec
+2020-02-05 10:56:14 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:14 - S - STEP
+2020-02-05 10:56:14 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:56:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:14 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:14 -  - loadFile
+2020-02-05 10:56:15 - U - RETURN
+2020-02-05 10:56:15 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:56:15 -  - TIME UnGzipArchive 0.016 sec
+2020-02-05 10:56:15 -  - TIME UpdateStepModules 0.025 sec
+2020-02-05 10:56:15 - UPD_SUCCESS - Updated: webprostor.core (1.0.9)<br>Исправление ошибок
+2020-02-05 10:56:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.9%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:16 -  - TIME LoadModulesUpdates(request) 0.77 sec
+2020-02-05 10:56:16 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:16 - S - STEP
+2020-02-05 10:56:16 - LMU01 - LoadModulesUpdates-Step
+2020-02-05 10:56:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:16 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:16 -  - loadFile
+2020-02-05 10:56:17 - U - RETURN
+2020-02-05 10:56:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2020-02-05 10:56:17 -  - TIME UnGzipArchive 0.017 sec
+2020-02-05 10:56:17 -  - TIME UpdateStepModules 0.031 sec
+2020-02-05 10:56:17 - UPD_SUCCESS - Updated: webprostor.core (1.0.10)<br>Исправление ошибок
+2020-02-05 10:56:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2020-02-05 10:56:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.10%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=webprostor.core&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:18 -  - TIME LoadModulesUpdates(request) 0.58 sec
+2020-02-05 10:56:18 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:18 - STEP - Finish - NOUPDATES
+2020-02-05 10:56:18 - STEP - Finish - NOUPDATES
+2020-02-05 10:56:34 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 10:56:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.10%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.core%2Cwebprostor.smtp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:35 -  - TIME GetUpdatesList(request) 0.919 sec
+2020-02-05 10:56:35 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:36 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 10:56:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.10%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.core%2Cwebprostor.smtp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:37 -  - TIME GetUpdatesList(request) 0.67 sec
+2020-02-05 10:56:37 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:42 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 10:56:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:42 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.10%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.core%2Cwebprostor.smtp%2Cwebprostor.core&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:43 -  - TIME GetUpdatesList(request) 0.629 sec
+2020-02-05 10:56:43 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:56:50 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 10:56:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:56:50 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.10%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.core%2Cwebprostor.smtp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:56:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:56:51 -  - TIME GetUpdatesList(request) 0.773 sec
+2020-02-05 10:56:51 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:57:07 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 10:57:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:57:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.10%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.core%2Cwebprostor.smtp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:57:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:57:08 -  - TIME GetUpdatesList(request) 0.692 sec
+2020-02-05 10:57:08 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 10:57:09 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 10:57:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 10:57:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.10%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.core%2Cwebprostor.smtp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 10:57:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 10:57:10 -  - TIME GetUpdatesList(request) 0.615 sec
+2020-02-05 10:57:10 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 11:25:34 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 11:25:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 11:25:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.10%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.core%2Cwebprostor.smtp%2Cwebprostor.smtp&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 11:25:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 11:25:35 -  - TIME GetUpdatesList(request) 0.691 sec
+2020-02-05 11:25:35 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 12:00:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 12:00:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 12:00:28 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 12:00:28 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-05 12:00:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 12:00:28 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.10%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.core%2Cwebprostor.smtp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-05 12:00:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 12:00:28 -  - TIME GetUpdatesList(request) 0.406 sec
+2020-02-05 12:00:28 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-05 12:00:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-05 12:00:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-05 12:00:29 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-11 10:21:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-11 10:21:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-11 10:21:49 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-11 10:21:49 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-11 10:21:49 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-11 10:21:49 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.3.9&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.10%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.core%2Cwebprostor.smtp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-11 10:21:49 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-11 10:21:50 -  - TIME GetUpdatesList(request) 0.46 sec
+2020-02-11 10:21:50 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-11 10:21:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-11 10:21:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-11 10:21:50 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-13 15:07:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-13 15:07:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-13 15:07:11 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-13 15:07:11 -  - exec CUpdateClientPartner::GetUpdatesList
+2020-02-13 15:07:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-13 15:07:11 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=aero&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.32&NGINX=Y&dbv=5.7.25&instm=main%2C20.0.0%2CY%3Bb24connector%2C18.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C18.5.0%2CN%3Bclouds%2C19.0.0%2CN%3Bcompression%2C19.0.0%2CN%3Bdev2fun.sectionswithelements%2C0.2.14%2CN%3Bfileman%2C18.5.500%2CN%3Bhighloadblock%2C19.0.0%2CN%3Biblock%2C18.6.1000%2CN%3Blanding%2C19.0.175%2CN%3Bmessageservice%2C19.0.0%2CN%3Bnsandrey.emptyinstall%2C1.0.5%2CN%3Bperfmon%2C18.5.0%2CN%3Brest%2C18.5.162%2CN%3Bsearch%2C18.5.200%2CN%3Bseo%2C19.0.800%2CN%3Bsocialservices%2C19.0.0%2CN%3Btranslate%2C18.0.100%2CN%3Bui%2C19.0.400%2CN%3Bwebprostor.core%2C1.0.10%2CN%3Bwebprostor.smtp%2C1.1.2%2CN&reqm=bitrix.sitecorporate%2Cdev2fun.sectionswithelements%2Cnsandrey.emptyinstall%2Cwebprostor.core%2Cwebprostor.smtp&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2020-02-13 15:07:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-13 15:07:11 -  - TIME GetUpdatesList(request) 0.256 sec
+2020-02-13 15:07:11 -  - exec CUpdateClientPartner::ParseServerData
+2020-02-13 15:07:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2020-02-13 15:07:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2020-02-13 15:07:11 -  - exec CUpdateClientPartner::ParseServerData

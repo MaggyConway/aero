@@ -1,0 +1,1 @@
+<?php $filesInfo = array("/local/templates/aero/components/bitrix/news.detail/about-tabs/style.css" => "1580400114155","/local/templates/aero/components/dev2fun/section.element.group/about-section/style.css" => "1580400116180",); ?>
